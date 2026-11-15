@@ -2853,3 +2853,55 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/*--------------------------------------------------------------
+# Services: table, lists and media (LW8)
+--------------------------------------------------------------*/
+.services .services-extra h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.services .services-extra h4 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.services .services-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--surface-color);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.services .services-table th,
+.services .services-table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+}
+
+.services .services-table th {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.services .services-table td:last-child {
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.services .services-extra li {
+  margin-bottom: 6px;
+}
+
+.services .services-extra video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.services .services-extra audio {
+  width: 100%;
+  max-width: 500px;
+}
