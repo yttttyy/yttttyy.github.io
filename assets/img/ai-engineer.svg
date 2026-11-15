@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="t">
+  <title id="t">Neural network illustration</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14303f"/>
+      <stop offset="1" stop-color="#0b1419"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#1387c1" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#1387c1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="300" r="260" fill="url(#glow)"/>
+
+  <!-- connections -->
+  <g stroke="#1387c1" stroke-opacity="0.45" stroke-width="2">
+    <path d="M120 180L240 120M120 180L240 240M120 180L240 360M120 180L240 480
+             M120 300L240 120M120 300L240 240M120 300L240 360M120 300L240 480
+             M120 420L240 120M120 420L240 240M120 420L240 360M120 420L240 480"/>
+    <path d="M240 120L360 120M240 120L360 240M240 120L360 360M240 120L360 480
+             M240 240L360 120M240 240L360 240M240 240L360 360M240 240L360 480
+             M240 360L360 120M240 360L360 240M240 360L360 360M240 360L360 480
+             M240 480L360 120M240 480L360 240M240 480L360 360M240 480L360 480"/>
+    <path d="M360 120L480 240M360 240L480 240M360 360L480 240M360 480L480 240
+             M360 120L480 360M360 240L480 360M360 360L480 360M360 480L480 360"/>
+  </g>
+
+  <!-- nodes -->
+  <g fill="#0b1419" stroke="#5cc4f5" stroke-width="4">
+    <circle cx="120" cy="180" r="18"/><circle cx="120" cy="300" r="18"/><circle cx="120" cy="420" r="18"/>
+    <circle cx="240" cy="120" r="18"/><circle cx="240" cy="240" r="18"/><circle cx="240" cy="360" r="18"/><circle cx="240" cy="480" r="18"/>
+    <circle cx="360" cy="120" r="18"/><circle cx="360" cy="240" r="18"/><circle cx="360" cy="360" r="18"/><circle cx="360" cy="480" r="18"/>
+  </g>
+  <g fill="#1387c1" stroke="#ffffff" stroke-width="4">
+    <circle cx="480" cy="240" r="22"/><circle cx="480" cy="360" r="22"/>
+  </g>
+  <g fill="#5cc4f5">
+    <circle cx="240" cy="240" r="7"/><circle cx="360" cy="360" r="7"/><circle cx="120" cy="300" r="7"/>
+  </g>
+</svg>
